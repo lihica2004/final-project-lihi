@@ -1,0 +1,69 @@
+.header {
+    text-align: center;
+    font-size: 2.5vw;
+    /* margin-top: 10vh; */
+}
+
+form {
+    margin-top: 100px;
+}
+
+textarea {
+    margin: auto;
+    direction: rtl;
+    width: 30vw;
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1.2vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #00aed1;
+    border: 0.2vh solid #06BEE1;
+    border-radius: 1vh;
+    padding: 0.5rem 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 5vh; */
+    /* position: absolute; */
+    /* top: 50vh; */
+    
+}
+
+.errorMessage {
+    background-color: rgb(251, 83, 83);
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1vh;
+  }
+
+button:hover {
+background-color: #06BEE1;
+border-color: #06BEE1;
+}
+
+button:disabled {
+ cursor: not-allowed;
+  font: inherit;
+  color: white;
+  background-color: #878e91;
+  border: 0.2vh solid #5b6365;
+  border-radius: 1vh;
+  padding: 0.5rem 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,148 @@
+.reqContainer {
+    border: 0.5vh solid black;
+    width: 40vw;
+    padding-right: 2vw;
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+}
+
+.date {
+    position: absolute;
+    right: 60vw;
+    border: 0.4vh solid rgb(54, 53, 53);
+}
+/* 
+.filter1 {
+    position: relative;
+    right: -40vw;
+}
+.filter2 {
+    position: relative;
+    left: 25vw;
+    top: -4.8vh
+}
+.filter3 {
+    position: relative; 
+    left: 10vw;
+    top: -4.8vh
+} */
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    margin-right: 2vw;
+}
+
+.btnContainer button  {
+    background-color: rgb(109, 105, 105);
+    border: none;
+    padding: 10px;
+}
+
+.btnContainer button:hover{
+    background-color:  rgb(88, 86, 86);
+    border: none;
+}
+
+.dateBtn {
+    background-color: rgb(109, 105, 105);
+    border: none;
+    position: absolute;
+    top: 62vh;
+    right: 68vw;
+}
+.dateBtn:hover {
+    background-color: rgb(88, 86, 86);
+}
+
+.notFound {
+    margin-right: 3vw;
+    font-size: 20px;
+}
+
+.reqHeader {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: -5vh;
+}
+
+.statusOpen {
+    border: 0.3vh solid black;
+    right: 28vw;
+    border-radius: 1vh;
+    width: 9vw;
+    text-align: center;
+    background-color: rgb(240, 214, 238); 
+    position:relative;
+}
+
+.dropdownCategory li {
+    background-color: rgb(194, 204, 204);
+    width: 300px;
+    margin-top: 3px;
+    cursor: pointer;
+    
+}
+
+.statusApproved {
+    border: 0.3vh solid black;
+    right: 28vw;
+    border-radius: 1vh;
+    width: 9vw;
+    text-align: center;
+    background-color: rgb(158, 254, 93);
+    position:relative;
+}
+
+.selectContainer {
+    height: 30px;
+    font-size: larger;
+    font: inherit;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.loadMore {
+    margin-bottom: 2vh;
+}
+
+.statusDecline {
+    border: 0.3vh solid black;
+    /* top: 2vh; */
+    right: 28vw;
+    border-radius: 1vh;
+    width: 9vw;
+    text-align: center;
+    background-color: rgb(255, 132, 107); 
+    position:relative;
+}
+
+.header {
+    margin-right: 3vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* .btnContainer button {
+        padding: 10px;
+    } */
+
+    .btnContainer {
+        width: 40vw;
+    }
+
+    .dateBtn {
+        top: 470px;
+        right: 700px;
+    }
+        .reqContainer {
+            width: 400px;
+        }
+    
+        .statusOpen, 
+        .statusApproved,
+        .statusDecline {
+            margin-right: 20px;
+        }
+    
+}

@@ -1,0 +1,116 @@
+.auth {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 1vh;
+  background-color: #1768AC;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.errorMessage {
+  background-color: rgb(251, 83, 83);
+  height: 5vh;
+}
+
+.auth h1 {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+
+.invalid input {
+  border: 0.5vh solid #b40e0e;
+  background-color: #f46767;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #f46767;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  margin-top: 20px;
+}
+
+.successMsg {
+  background-color: rgb(122, 251, 83);
+  height: 5vh;
+}
+
+.control label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  /* background-color: #f1e1fc;
+  color: #38015c; */
+  border-radius: 0.5vh;
+  border: 0.2vh solid white;
+  width: 100%;
+  text-align: left;
+  direction: ltr;
+  padding: 0.25rem;
+}
+
+form {
+  margin-top: 0px !important;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #03d5ff;
+  border: 0.2vh solid #06BEE1;
+  border-radius: 1vh;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:disabled {
+  cursor: not-allowed;
+  font: inherit;
+  color: white;
+  background-color: #878e91;
+  border: 0.2vh solid #5b6365;
+  border-radius: 1vh;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: #06BEE1;
+  border-color: #06BEE1;
+}
+.actions button:disabled:hover {
+  background-color: #878e91;
+  border: 0.2vh solid #5b6365;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #00d5ff;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #05bce0;
+}

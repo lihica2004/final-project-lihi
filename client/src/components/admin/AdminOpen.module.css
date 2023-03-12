@@ -1,0 +1,84 @@
+.reqContainer {
+    border: 3.77px solid black;
+    width: 600px;
+    padding-right: 2vw;
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+}
+
+.reqHeader {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: -5vh;
+}
+
+.reqExp {
+    position: relative;
+    bottom: 5vh;
+    top: 0vh;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    left: 1vw;
+    position: relative;
+}
+
+.statusYes {
+    border:  2.262px solid black;
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-right: 350px;
+    border-radius: 7.54px;
+    width: 76.8px;
+    text-align: center;
+    background-color: rgb(137, 208, 139); 
+    padding-left: 76.8px;
+}
+.statusNo {
+    padding-left: 76.8px;
+    border:  2.262px solid black;
+    margin-top: 12px;
+    margin-left: 40px;
+    border-radius: 7.54px;
+    width: 76.8px;
+    text-align: center;
+    background-color: rgb(248, 163, 130); 
+}
+
+button {
+    text-align: center;
+}
+
+.statusYes:hover {
+    border: 0.3vh solid black;
+    background-color: rgb(103, 183, 105); 
+}
+.statusNo:hover {
+    border: 0.3vh solid black;
+    background-color: rgb(244, 134, 90); 
+}
+
+.header {
+    margin-right: 3vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .reqContainer {
+        width: 600px;
+    }
+    /* .statusNo {
+        margin-left: 200px;
+        
+    } */
+    .statusYes {
+        margin-left: 10px;
+
+    }
+    .btnContainer {
+        position: relative;
+        /* right: 10vw; */
+        left: 3vw;
+    }
+}

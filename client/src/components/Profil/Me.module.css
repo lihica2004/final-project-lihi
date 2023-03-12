@@ -1,0 +1,83 @@
+/* body {
+    width: 97.9vw;
+} */
+
+.reqContainer {
+    border: 0.5vh solid black;
+    width: 40vw;
+    padding-right: 2vw;
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+}
+
+.reqHeader {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: -5vh;
+}
+
+.statusOpen {
+    border: 0.3vh solid black;
+    /* top: 2vh; */
+    right: 28vw;
+    border-radius: 1vh;
+    width: 9vw;
+    text-align: center;
+    z-index: -1;
+    background-color: rgb(240, 214, 238); 
+    position:relative;
+}
+.statusApproved {
+    border: 0.3vh solid black;
+    /* top: 2vh; */
+    z-index: -1;
+    right: 28vw;
+    border-radius: 1vh;
+    width: 9vw;
+    text-align: center;
+    background-color: rgb(158, 254, 93);
+    position:relative;
+}
+
+.statusDecline {
+    border: 0.3vh solid black;
+    z-index: -1;
+    /* top: 2vh; */
+    right: 28vw;
+    border-radius: 1vh;
+    width: 9vw;
+    text-align: center;
+    background-color: rgb(255, 132, 107); 
+    position:relative;
+}
+
+.header {
+    margin-right: 3vw;
+    margin-bottom: -40px;
+}
+
+.changeDetailsBtn {
+    position: relative;
+    /* top: -60px; */
+    left: 180px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .reqContainer {
+        width: 400px;
+    }
+
+    .statusOpen, 
+    .statusApproved,
+    .statusDecline {
+        margin-right: 25px;
+    }
+
+    .changeDetailsBtn {
+        position: relative;
+        /* top: -60px; */
+        left: 100px;
+        /* width: 200px; */
+        padding: 10px;
+    }
+}
